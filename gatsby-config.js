@@ -79,5 +79,20 @@ module.exports = {
         siteSpeedSampleRate: 10,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'gatsby-casper',
+        short_name: 'casper',
+        start_url: '/',
+        background_color: '#f4f8fb',
+        theme_color: '#0a0b0c',
+        display: 'standalone',
+        icon: `src/favicon.ico`,
+        include_favicon: true,
+      },
+    },
+    'gatsby-plugin-sri',
+    'gatsby-plugin-offline',
   ],
 };
