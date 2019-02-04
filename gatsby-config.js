@@ -92,7 +92,6 @@ module.exports = {
         include_favicon: true,
       },
     },
-    'gatsby-plugin-sri',
     'gatsby-plugin-offline',
   ],
 };
